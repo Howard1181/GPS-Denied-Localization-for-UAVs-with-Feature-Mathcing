@@ -1,4 +1,5 @@
-# Non-GPS UAV Localization with Feature Matching
+# GPS-Denied-Localization-for-UAVs-with-Feature-Mathcing
+## Overview
 This repository showcases a C++ module for UAV localization algorithms using Feature Matchiing.
 It is designed to demonstrate technical expertise in real-time system communication, UAV modeling, and image-based positioning. The code is tailored for demonstration and evaluation purposes, and not intended for direct commercial use.
 
