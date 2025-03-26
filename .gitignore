@@ -23,6 +23,7 @@
 
 # Visual Studio Code workspace files
 .vscode/
+.vs
 
 # Build system files
 *.tlog
