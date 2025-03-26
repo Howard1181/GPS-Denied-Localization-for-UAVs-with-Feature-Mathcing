@@ -1,0 +1,1 @@
+=LEFT(  F2, FIND("°", F2) - 1 ) + MID( F2, FIND("°", F2) + 1, FIND("'", F2) - FIND("°", F2) - 1 ) / 60 + MID( F2, FIND("'", F2) + 1, (FIND(" N", F2)-1) - (FIND("'", F2)+1) ) / 3600

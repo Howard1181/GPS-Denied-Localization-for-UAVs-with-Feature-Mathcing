@@ -17,8 +17,8 @@ namespace fs = std::filesystem;
 class ImgLocate
 {
 	// 照片讀取資訊
-	string folderPath_camera = "E:/無人機影像定位/CY影像定位實作/豐原空拍_2";
-	string PhoInfo_excelFile = "../../../FongYuanLog2.csv";
+	string folderPath_camera = "../photo";
+	string PhoInfo_excelFile = "../log/FongYuanLog2.csv";
 
 	// 演算法參數
 	int xStepNum = 0;
@@ -35,8 +35,8 @@ class ImgLocate
 public:
 	vector<string> getCamImgFiles();
 	vector<vector<string>> getCamImgLog();
-	string CroppedMapPath = "E:/無人機影像定位/CY影像定位實作/Cropped_Map_FU"; // 中文路徑也可以
-	string folderPath_map = "E:/無人機影像定位/CY影像定位實作/離線地圖/豐原/8KUHD_FongYuan2.png";
+	string CroppedMapPath = "../cmap";
+	string folderPath_map = "../map/8KUHD_FongYuan2.png";
 	void initRecvStruct(ImgAL_receiveMsg&);
 	cv::Mat puzzleMap(int picture_num);
 	void setResolution(cv::Mat&, double);
@@ -284,7 +284,7 @@ cv::Mat ImgLocate::puzzleMap(int picture_num)
 	cv::destroyWindow("FinalImg");
 
 	// 將拼接好的照片寫入資料夾
-	string puzzlePath = "E:/無人機影像定位/CY影像定位實作/小地圖拼接/Puzzle33_cpp.png";
+	string puzzlePath = "../puzzlemap/Puzzle33_cpp.png";
 	cv::imwrite(puzzlePath, Puzzle_map33);
 	return Puzzle_map33;
 }

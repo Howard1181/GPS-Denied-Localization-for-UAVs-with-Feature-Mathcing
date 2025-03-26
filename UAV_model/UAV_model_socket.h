@@ -14,8 +14,7 @@
 #include <thread>
 #include <chrono>
 
-//using namespace std; // 使用std會與scoket有些函式名稱衝突
- 
+
 // 由傳送與接收者定義
 #define PORT_NUM 6600
 #define IP_ADDRES "127.0.0.1"

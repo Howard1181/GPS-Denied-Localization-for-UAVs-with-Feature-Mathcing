@@ -1,1 +1,2 @@
 E:\無人機影像定位\CY影像定位實作\Cpp_Implmentation\ImgLocatingAL_241217\UAV_model\x64\Debug\UAV_model.exe
+E:\Git\FM\Non-GPS-UAV-Localization-with-Feature-Matching\UAV_model\x64\Debug\UAV_model.exe

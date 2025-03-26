@@ -40,7 +40,7 @@ void socketSender()
 int main()
 {
     // 讀取空拍照片
-    string folderPath_camera = "E:/無人機影像定位/CY影像定位實作/豐原空拍_2";
+    string folderPath_camera = "../photo";
     vector<string> imageFiles_camera;
     if (fs::exists(folderPath_camera) && fs::is_directory(folderPath_camera))
     {
@@ -55,7 +55,7 @@ int main()
     }
     
     // 讀取空拍資料(flight psi)
-    string PhoInfo_excelFile = "../../../FongYuanLog2.csv";
+    string PhoInfo_excelFile = "../log/FongYuanLog2.csv";
     ifstream file(PhoInfo_excelFile);
     string line;
     vector<vector<string>> data;
