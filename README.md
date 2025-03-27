@@ -8,8 +8,8 @@ This project was developed to bridge the gap between algorithm theory and practi
 
 ## Project Structure
 <pre>
-├── ImgLocatingAL/         // Main algorithms folder
-    └──  Header.h             // Define algorithms.
+├── ImgLocatingAL/           // Main algorithms folder
+    └──  Header.h            // Define algorithms.
     └── ImgAL_socket.h       // Define socket function and data structure.
     └── ImgLocatingAL.cpp    // Implement algortihms
     └── ImgAL_socket.cpp     // Data exchange    
@@ -18,6 +18,3 @@ This project was developed to bridge the gap between algorithm theory and practi
     └──  UAV_model.h
     └── UAV_model.cpp
 <pre>
-    
-
-
